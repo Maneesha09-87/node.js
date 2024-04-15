@@ -1,4 +1,5 @@
 const productmodel = require("./productmodel")
+
 const postproduct = async (req,res) => {
     try{
     let data = req.body
@@ -8,4 +9,5 @@ const postproduct = async (req,res) => {
         console.log(err.message)
     }
 }
+
 module.exports.postproduct = postproduct 
